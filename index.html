@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="NumberSystemConv.css">
+
+    <script src="NumberSystemConv.js"> </script>  
+
+  </head>
+  <body>
+
+    <div id="background"><!-- Main background -->
+      
+      <div id="result"></div>
+      <div class="rows">
+        <div class="col-op-button">
+          <button value="hex" id="hex" class="btn-style-op opera-bg">hex</button>
+        </div>
+        <div class="col-op-result" id="hex-result">
+        </div>
+      </div>
+
+      <div class="rows">
+        <div class="col-op-button">
+          <button value="dec" id="dec" class="btn-style-op opera-active-bg">dec</button>
+        </div>
+        <div class="col-op-result" id="dec-result">
+        </div>
+      </div>
+      <div class="rows">
+        <div class="col-op-button">
+          <button value="oct" id="oct" class="btn-style-op opera-bg">oct</button>
+        </div>
+        <div class="col-op-result" id="oct-result">
+        </div>
+      </div>
+      <div class="rows">
+        <div class="col-op-button">
+          <button value="bin" id="bin" class="btn-style-op opera-bg">bin</button>
+        </div>
+        <div class="col-op-result" id="bin-result">
+        </div>
+      </div>
+
+        </br>
+        <div id="keypad">
+          <div class="rows">
+            <button value="A" id="eey" class="btn-style num-bg num first-child first-rows pwn3d" disabled="disabled">A</button>
+            <button value="B" id="bee" class="btn-style num-bg num pwn3d" disabled="disabled">B</button>
+            <button value="7" id="seven" class="btn-style num-bg num pwn3d">7</button>
+            <button value="8" id="eight" class="btn-style num-bg num pwn3d">8</button>
+            <button value="9" id="nine" class="btn-style num-bg num pwn3d">9</button>
+          </div>
+          
+          <div class="rows">
+            <button value="C" id="see" class="btn-style num-bg num first-child pwn3d" disabled="disabled">C</button>
+            <button value="D" id="dee" class="btn-style num-bg num pwn3d" disabled="disabled">D</button>
+            <button value="4" id="four" class="btn-style num-bg num pwn3d">4</button>
+            <button value="5" id="five" class="btn-style num-bg num pwn3d">5</button>
+            <button value="6" id="six" class="btn-style num-bg num pwn3d">6</button>
+          </div>
+          
+          <div class="rows">
+            <button value="E" id="iee" class="btn-style num-bg num first-child pwn3d" disabled="disabled">E</button>
+            <button value="F" id="eff" class="btn-style num-bg num pwn3d" disabled="disabled">F</button>
+            <button value="1" id="one" class="btn-style num-bg num pwn3d">1</button>
+            <button value="2" id="two" class="btn-style num-bg num pwn3d">2</button>
+            <button value="3" id="three" class="btn-style num-bg num pwn3d">3</button>
+          </div>
+          
+          <div class="rows">
+            <button class="del-bg" id="delete">Del</button>
+            <button id="plusminus" class="btn-style num-bg num pwn3d">+/-</button>
+            <button value="0" id="zero" class="btn-style num-bg zero pwn3d">0</button> 
+            <button value="=" id="eqn-bg" class="eqn align pwn3d">.</button>
+          </div>
+        </div>
+
+      </br>
+      <div>
+        <div class="Table">
+          <div class="Title">
+            <p>IEEE 754 Single-precision floating-point format</p>
+          </div>
+          <div class="Row">
+            <div class="cell column-one">
+              <p>Sign</p>
+            </div>
+            <div id="sign" class="cell column-two">
+            </div>
+          </div>
+          <div class="Row">
+            <div class="cell column-one">
+              <p>Exponent</p>
+            </div>
+            <div id="exponent" class="cell column-two">
+            </div>
+          </div>
+          <div class="Row">
+            <div class="cell column-one">
+              <p>Fraction</p>
+            </div>
+            <div id="fraction" class="cell column-two">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+
+
+
+
+</body>
+</html> 
+
+
